@@ -1,0 +1,188 @@
+/*********GENERAL******/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url('../images/background.jpg')top center ;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
+p {
+	margin: 0 auto;
+	width: 90%;
+	text-align: left;
+	padding: 0px 5px 25px 5px;
+	line-height: 2;
+	font-size: 1.1em;
+	color: black;}
+
+span.p:hover {
+	background-color: #E0E0E0;
+	cursor: pointer;
+}
+
+h1,h2,h3 {
+	text-align: center;
+}
+
+
+h1.ttle1 {
+	padding: 10px;
+}
+
+ h3.ttle2 {
+	margin:  -30px;
+}
+
+h2.ttle3 {
+	padding: 10px; 
+	font-style: italic;
+}
+
+h2.ttle4 {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+small {
+	color: grey;
+}
+/********CONTAINER*******/
+
+.container {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.wrapper {
+	width: 70%;
+	margin:0 auto;
+}
+
+.transcript {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*******VIDEO*********/
+#my-video {
+	height: 50%;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video-control-bar {
+	background: transparent;
+	width: 95%;
+	margin: 0 auto;
+	color: white;
+	transform:translateY(-65px);
+}
+
+#playpausebtn {
+	background: transparent;
+	border:none;
+	cursor: pointer;
+	outline: none; 
+}
+
+#mutebtn {
+    background:transparent;
+	border:none;
+	cursor: pointer;
+	outline: none;
+}
+
+#fullscreenbtn {
+    background:transparent;
+	border:none;
+	cursor: pointer;
+	outline: none;	
+}
+
+#seekslider {
+	width: 100%;
+}
+#mutebtn,
+#volumeslider,
+#fullscreenbtn {
+	float: right;
+}
+
+
+
+input[id='volumeslider'] {
+
+	-webkit-appearance: none !important;
+	background-color: #fff;
+	height: 4px;
+	outline: none;
+}
+
+input[type=range]::-moz-range-track{
+	-webkit-appearance: none !important;
+	background-color: #fff;
+	height: 4px;
+	outline: none;
+
+}
+
+progress[value]::-ms-fill {
+	-webkit-appearance: none;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: #FFF;
+    height:15px;
+    width:15px;
+	border-radius:100%;
+	cursor:pointer;
+}
+
+progress[value] {
+  -webkit-background-color: orange;
+  border-radius: 5px;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+progress[value]::-moz-progress-bar{
+  background-color: orange;
+  border-radius: 5px;
+}
+progress {
+	height: 6px;
+	outline: none;
+}
+
+
+#volumeslider {
+	margin: 10px;
+}
+#controls {
+	padding: 10px;
+}
+
+#seekslider,
+#controls {
+transform: translateY(-20px);
+}
+
+video::-webkit-media-controls-enclosure {
+  display:none !important;
+}
+
+
+
+
+
